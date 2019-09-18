@@ -12,4 +12,6 @@
 3. 記事に従い、実行する。
 
 ### 補足
-RcptMngSys.gs 内の myFunction() や InitForm() はよしなに…
+- RcptMngSys.gs 内の myFunction() や InitForm() はよしなに…
+- 筆者自身まだまだ大いに未熟ゆえにソースコードは随時改善する予定
+- もし、ソースコードを見て気になる点などが見つかった場合は、togazo/samplesのIssueから提案いただいたりPull&Request頂けると幸いです!!
