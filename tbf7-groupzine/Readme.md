@@ -13,5 +13,6 @@
 
 ### 補足
 - RcptMngSys.gs 内の myFunction() や InitForm() はよしなに…
+- トリガの設定方法などは記事参照
 - 筆者自身まだまだ大いに未熟ゆえにソースコードは随時改善する予定
 - もし、ソースコードを見て気になる点などが見つかった場合は、togazo/samplesのIssueから提案いただいたりPull&Request頂けると幸いです!!
