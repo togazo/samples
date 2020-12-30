@@ -2,7 +2,7 @@
 * RcptMngSys_Form.gs
 * Author: TGA (@togazo / TGABOOK)
 * Create: 2019.9.18
-* Update: 2020.12.21
+* Update: 2020.12.27
 *
 * NOTE:
 *   DojoCon Japan 2020 のワークショップ用にカスタマイズ
