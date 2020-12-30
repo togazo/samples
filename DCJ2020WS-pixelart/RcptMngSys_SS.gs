@@ -106,7 +106,7 @@ function EvtFormSubmitSS(e)
 * return: true:[Array]ユーザデータ、false:取得失敗
 *
 */
-const ID_ST_DB = '1FTX_DFeuKL1G-768_Kuocqm8uOMJrvNPASzXlVp34-Y'; //ホワイトリスト（Doorkeeperの申込みデータ）
+const ID_ST_DB = '[DOORKEEPER EXCEL]'; //ホワイトリスト（Doorkeeperの申込みデータ）
 const ST_NAM_ALLOW = '参加者'; //A-C列
 function ChkAllowUser_(chkcode)
 {  
