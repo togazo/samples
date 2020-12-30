@@ -31,7 +31,7 @@ function SetTrigger4EveryMin() { //トリガーをセットし、そのIDをス�
   PropertiesService.getScriptProperties().setProperty('SPROP_TRGID', ScriptApp.newTrigger(CRN_FNC).timeBased().everyMinutes(CRN_MIN).create().getUniqueId());
 }
 function DeleteTrigger4EveryMin() { //特定のIDのトリガーを削除する
-  const uid = PropertiesService.getScriptProperties().getProperty('SPROP_TRGID');
+  const uid = PropertiesService.getScriptProperties().getProperty('SPROP_TRGID'); //要するに、このScriptPropertiesがちゃんと保存できないと、このスクリプトはまるで使い物にならぬ…
   if(uid===null){Logger.log('DeleteTrigger4EveryMin(): トリガーIDなし、実行できず。'); return;}
   ScriptApp.getProjectTriggers().filter(i=>i.getUniqueId()==uid).forEach(i=>ScriptApp.deleteTrigger(i));
 }
