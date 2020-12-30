@@ -14,7 +14,7 @@ const I_GA = 2;//Googleアカ
 const I_CD = 3;//チェックインコード
 const I_DBNM = 5;//DB名前
 const I_DBML = 6;//DBメール
-const I_WR = 7;//参加許可
+const I_WR = 7;//書き込み回数
 const I_ALW = 8;//参加許可
 
 /*
