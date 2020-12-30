@@ -17,17 +17,6 @@ const I_DBML = 6;//DBメール
 const I_WR = 7;//参加許可
 const I_ALW = 8;//参加許可
 
-
-/*
-* 設置時に一度だけ手動で実行する
-*/
-function InitSS()
-{
-  //トリガーの作成
-  let st = SpreadsheetApp.getActive();
-  ScriptApp.newTrigger("EvtFormSubmitSS").forSpreadsheet(st).onFormSubmit().create(); //フォーム送信時（スプレッドシート）
-}
-
 /*
 *
 * メニュー追加
