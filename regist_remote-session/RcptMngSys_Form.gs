@@ -95,15 +95,15 @@ function chAllowGuest_(bl_guest)
       pb_entry_oth = i.asPageBreakItem();
     else if(i.getType()==FormApp.ItemType.PAGE_BREAK && i.getTitle()=='')
       pb_entry_rgl = i.asPageBreakItem();
-    else if(i.getTitle()=='小平道場への参加経験')
+    else if(i.getTitle()=='[???]への参加経験')
       user_type = i.asMultipleChoiceItem();
   });
   if(bl_guest){
-    user_type.setHelpText(`過去2年間に小平道場に参加したことのある方（見学を含む）は「${SEL_USER_ALLOW}」をお選びください。それ以外の方は「${SEL_USER_OPEN}」をお選び下さい。`);
+    user_type.setHelpText(`過去2年間に[???]に参加したことのある方（見学を含む）は「${SEL_USER_ALLOW}」をお選びください。それ以外の方は「${SEL_USER_OPEN}」をお選び下さい。`);
     user_type.setChoices([user_type.createChoice(SEL_USER_ALLOW,pb_entry_rgl),user_type.createChoice(SEL_USER_OPEN,pb_entry_oth)]);
   }
   else{
-    user_type.setHelpText('ただいまの時間は、過去2年間に小平道場に参加したことのある方（見学を含む）のみの受付となります。');
+    user_type.setHelpText('ただいまの時間は、過去2年間に[???]に参加したことのある方（見学を含む）のみの受付となります。');
     user_type.setChoices([user_type.createChoice(SEL_USER_ALLOW,pb_entry_rgl)]);
   }
 }
