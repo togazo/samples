@@ -47,7 +47,9 @@ function init()
            .timeBased()
            .at(new Date(TM_CL))
            .create();
-  const st = SpreadsheetApp.openById(SS_ID).getSheetByName(ST_NM);
-  if(!st) return;
-  try{ st.hideRows(2,st.getLastRow()-1); }catch(err){Logger.log(err);}
+  try{
+    const st = SpreadsheetApp.openById(SS_ID).getSheetByName(ST_NM);
+    if(!st) return;
+    st.hideRows(2,st.getLastRow()-1); 
+  }catch(err){Logger.log(err);}
 }
