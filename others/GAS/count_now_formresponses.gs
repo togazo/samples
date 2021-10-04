@@ -7,6 +7,8 @@
  *        4. このフォームを何日まで実行するか決めて END_DATE に設定する（書式は YYYY-MM-DD HH:mm）
  *        5. トリガーを「日付ベースのタイマ」で登録する（時間設定は任意）
  *
+ * 補足: Qiitaでの説明 https://qiita.com/togazo/items/620b655a20e12cdb708d
+ *
  * 作った人: TGA
  * ライセンス: CC0 1.0
  *           https://creativecommons.org/publicdomain/zero/1.0/
